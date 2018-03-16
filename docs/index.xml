@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>d3.js Portfolio</title>
+    <link>https://juliobguedes.github.io/portfolio-vis/</link>
+    <description>Recent content on d3.js Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
+    <lastBuildDate>Thu, 15 Mar 2018 20:12:25 -0300</lastBuildDate>
+    
+	<atom:link href="https://juliobguedes.github.io/portfolio-vis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Spotify Top50</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/redes/my-spotify-top50/</link>
+      <pubDate>Thu, 15 Mar 2018 20:12:25 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/redes/my-spotify-top50/</guid>
+      <description>Directive by HTML5 UP  --  
+
+ --  --  --   --       
+O grafo acima foi feito a partir dos dados da minha conta no Spotify, através da API pública do mesmo. Através da visualização, pode-se observar que nos meus artistas mais ouvidos, existe uma grande divisão entre os seus estilos: no primeiro grande conjunto, é possível observar que os artistas são predominantemente (se não totalmente) brasileiros, e os estilos dos mesmos se ligam por gêneros musicais também brasileiros; no segundo grande conjunto predominam artistas do pop americano, sendo ligados por estarem em subdivisões do pop; os menores conjuntos, entretanto, representam a música eletrônica e o indie.</description>
+    </item>
+    
+    <item>
+      <title>Eletrônica</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/redes/eletronica/</link>
+      <pubDate>Thu, 15 Mar 2018 14:03:38 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/redes/eletronica/</guid>
+      <description>O grafo a seguir foi feito a partir dos dados obtidos da API do Spotify através desse site do labs.polsys e guiado pelo roteiro disponível nos arquivos HTML desse repositório, como parte da disciplina de Visualização da Informação, ministrada pelo professor Nazareno Andrade.
+ O grafo acima representa os artistas/bandas no Spotify que estão relacionados à Vegas, nome artístico de Paulo Vilela Veiga, famoso Dj no cenário nacional de música eletrônica, principalmente ao observar as subcategorias de música eletrônica mais presente em seus sets: trance, progressive e psytrance.</description>
+    </item>
+    
+    <item>
+      <title>O IDH em uma década</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/lab3parte4/</link>
+      <pubDate>Tue, 27 Feb 2018 02:02:39 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/lab3parte4/</guid>
+      <description>.cidades { fill: none; stroke: #fff; stroke-linejoin: round; }
+.essevege { margin-left:-300px; }
+
+  O gráfico acima representa a diferença de IDH dos municípios brasileiros entre 2000 e 2010. Os dados foram obtidos através do Observatório do PNE (nesse link) e os dados de mapa foram obtidos do IBGE. Como demonstrado na legenda, a ideia principal do mapa é evidenciar os municípios brasileiros que mais cresceram, em relação ao seu IDH anterior.</description>
+    </item>
+    
+    <item>
+      <title>Salário Mínimo</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/legenda2/</link>
+      <pubDate>Tue, 20 Feb 2018 02:29:11 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/legenda2/</guid>
+      <description>.jus { text-align: justify; }  
+     var svg = d3.select(&#34;svg&#34;), width = +svg.attr(&#34;width&#34;), height = +svg.attr(&#34;height&#34;); var x = d3.scaleLinear() .domain([0, 500]) .rangeRound([0, 360]); var color = d3.scaleThreshold().domain([75, 150, 225, 300, 375, 450]).range(d3.schemeYlOrRd[7]); var g = svg.append(&#34;g&#34;) .attr(&#34;class&#34;, &#34;key&#34;) .attr(&#34;transform&#34;, &#34;translate(0,40)&#34;); g.selectAll(&#34;rect&#34;) .data(color.range().map(function(d) { d = color.invertExtent(d); if (d[0] == null) d[0] = x.domain()[0]; if (d[1] == null) d[1] = x.domain()[1]; return d; })) .</description>
+    </item>
+    
+    <item>
+      <title>Alfabetizados</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/legenda/</link>
+      <pubDate>Mon, 19 Feb 2018 21:23:56 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/legenda/</guid>
+      <description>.jus { text-align: justify; }  
+     var svg = d3.select(&#34;svg&#34;), width = +svg.attr(&#34;width&#34;), height = +svg.attr(&#34;height&#34;); var x = d3.scaleLinear() .domain([0, 280]) .rangeRound([0, 360]); var color = d3.scaleThreshold().domain([35,70,105,140,175,210,245]).range(d3.schemeYlGn[8]); var g = svg.append(&#34;g&#34;) .attr(&#34;class&#34;, &#34;key&#34;) .attr(&#34;transform&#34;, &#34;translate(0,40)&#34;); g.selectAll(&#34;rect&#34;) .data(color.range().map(function(d) { d = color.invertExtent(d); if (d[0] == null) d[0] = x.domain()[0]; if (d[1] == null) d[1] = x.domain()[1]; return d; })) .enter().append(&#34;rect&#34;) .attr(&#34;height&#34;, 8) .attr(&#34;x&#34;, function(d) { return x(d[0]); }) .</description>
+    </item>
+    
+    <item>
+      <title>Mapa de calor em espiral</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</link>
+      <pubDate>Mon, 11 Dec 2017 00:21:11 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</guid>
+      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; margin: 20px; top: 20px; right: 20px; bottom: 20px; left: 20px; }
+line { stroke: lightgray; } .year-label { fill: white; } .tooltip { position: absolute; text-align: center; width: 60px; height: 20px; padding-top: 3px; margin-top: -20px; font: 10px sans-serif; background: #ddd; pointer-events: none; border-radius: 5px; }    Um mapa de calor em espiral demonstrando a quantidade de pedestres + ciclistas no Açude Velho, das 6:00 as 21:00</description>
+    </item>
+    
+    <item>
+      <title>Lab 2 - Parte 2</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/lab2p2/</link>
+      <pubDate>Wed, 29 Nov 2017 13:44:40 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/lab2p2/</guid>
+      <description>.mychart text { font: 12px sans-serif; text-anchor: left; }  &#34;use strict&#34; function desenhaBarras(dados) { var alturaSVG = 400, larguraSVG = 700; var margin = {top: 10, right: 20, bottom:30, left: 45}, // para descolar a vis das bordas do grafico larguraVis = larguraSVG - margin.left - margin.right, alturaVis = alturaSVG - margin.top - margin.bottom; var grafico = d3.select(&#39;#chart&#39;) // cria elemento  com um  dentro .</description>
+    </item>
+    
+    <item>
+      <title>Historia</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/historia/</link>
+      <pubDate>Thu, 16 Nov 2017 00:39:51 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/historia/</guid>
+      <description>Um dia, após o almoço, Edilson e sua família foram assistir ao Jornal da Paraíba. Em uma das manchetes, já havia sido avisado que iriam noticiar sobre a seca no açude Epitácio Pessoa, que abastece a cidade de Campina Grande. Ao ver que o racionamento havia terminado, com a chegada da água da transposição do rio São Francisco à cidade de Campina Grande, ficou preocupado se o açude iria ou não voltar a encher, por causa do elevado consumo.</description>
+    </item>
+    
+    <item>
+      <title>Terceira Visualizacao</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/terceira-visualizacao/</link>
+      <pubDate>Thu, 16 Nov 2017 00:39:44 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/terceira-visualizacao/</guid>
+      <description>Variação média do volume entre os meses
+     const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://gist.githubusercontent.com/juliobguedes/e9d5820ec7c2a68bb5cc24f6bde796b0/raw/417bb98981812899469848caa3fcffef8161592b/dados.json&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;dados&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } },&#34;mark&#34;:&#34;area&#34;, &#34;encoding&#34;: { &#34;x&#34;:{&#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;month&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação média do volume por mês&#34;}}, &#34;y&#34;:{&#34;field&#34;:&#34;Variacao&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação do Volume&#34;}} }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  </description>
+    </item>
+    
+    <item>
+      <title>Segunda Visualização</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/segunda-vis/</link>
+      <pubDate>Thu, 16 Nov 2017 00:08:14 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/segunda-vis/</guid>
+      <description>Variação média do volume por mês do ano, entre 1990 e 2000
+     const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://gist.githubusercontent.com/juliobguedes/e9d5820ec7c2a68bb5cc24f6bde796b0/raw/417bb98981812899469848caa3fcffef8161592b/dados.json&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;dados&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } },&#34;mark&#34;:&#34;bar&#34;, &#34;encoding&#34;: { &#34;x&#34;:{&#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;yearmonth&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação média do volume por mês do ano&#34;}}, &#34;y&#34;:{&#34;field&#34;:&#34;Variacao&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação do Volume&#34;}} }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  </description>
+    </item>
+    
+    <item>
+      <title>Primeira Visualização</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/primeira-visualizacao/</link>
+      <pubDate>Wed, 15 Nov 2017 17:07:51 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/primeira-visualizacao/</guid>
+      <description>const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://api.insa.gov.br/reservatorios/12172/monitoramento&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;volumes&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } }, &#34;mark&#34;:&#34;line&#34;, &#34;encoding&#34;: { &#34;x&#34;:{ &#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;year&#34;, &#34;axis&#34;:{ &#34;title&#34;:&#34;Volume médio ao longo dos anos&#34; } }, &#34;y&#34;:{ &#34;field&#34;:&#34;Volume&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;axis&#34;:{ &#34;title&#34;:&#34;Volume&#34; } } }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  A visualização representa a variação do volume de água durante os anos, desde o início dos registros.</description>
+    </item>
+    
+    <item>
+      <title>Primeiro Post</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/primeiro-post/</link>
+      <pubDate>Wed, 15 Nov 2017 16:46:56 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/primeiro-post/</guid>
+      <description>const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;: &#34;https://api.insa.gov.br/reservatorios/12172/monitoramento&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;volumes&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } }, &#34;width&#34;: 500, &#34;height&#34;: 120, &#34;mark&#34;: { &#34;type&#34;: &#34;area&#34;, &#34;interpolate&#34;: &#34;monotone&#34; }, &#34;selection&#34;: { &#34;brush&#34;: {&#34;type&#34;: &#34;interval&#34;, &#34;encodings&#34;: [&#34;x&#34;]} }, &#34;encoding&#34;: { &#34;x&#34;: { &#34;timeUnit&#34; : &#34;monthyear&#34;, &#34;field&#34;: &#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;axis&#34;: {&#34;format&#34;: &#34;%Y&#34;, &#34;title&#34; : &#34;Volume percentual ao longo dos anos&#34;} }, &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

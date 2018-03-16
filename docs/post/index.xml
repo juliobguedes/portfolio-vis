@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on d3.js Portfolio</title>
+    <link>https://juliobguedes.github.io/portfolio-vis/post/</link>
+    <description>Recent content in Post on d3.js Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
+    <lastBuildDate>Mon, 11 Dec 2017 00:21:11 -0200</lastBuildDate>
+    
+	<atom:link href="https://juliobguedes.github.io/portfolio-vis/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapa de calor em espiral</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</link>
+      <pubDate>Mon, 11 Dec 2017 00:21:11 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</guid>
+      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; margin: 20px; top: 20px; right: 20px; bottom: 20px; left: 20px; }
+line { stroke: lightgray; } .year-label { fill: white; } .tooltip { position: absolute; text-align: center; width: 60px; height: 20px; padding-top: 3px; margin-top: -20px; font: 10px sans-serif; background: #ddd; pointer-events: none; border-radius: 5px; }    Um mapa de calor em espiral demonstrando a quantidade de pedestres + ciclistas no Açude Velho, das 6:00 as 21:00</description>
+    </item>
+    
+    <item>
+      <title>Lab 2 - Parte 2</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/lab2p2/</link>
+      <pubDate>Wed, 29 Nov 2017 13:44:40 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/lab2p2/</guid>
+      <description>.mychart text { font: 12px sans-serif; text-anchor: left; }  &#34;use strict&#34; function desenhaBarras(dados) { var alturaSVG = 400, larguraSVG = 700; var margin = {top: 10, right: 20, bottom:30, left: 45}, // para descolar a vis das bordas do grafico larguraVis = larguraSVG - margin.left - margin.right, alturaVis = alturaSVG - margin.top - margin.bottom; var grafico = d3.select(&#39;#chart&#39;) // cria elemento  com um  dentro .</description>
+    </item>
+    
+    <item>
+      <title>Historia</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/historia/</link>
+      <pubDate>Thu, 16 Nov 2017 00:39:51 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/historia/</guid>
+      <description>Um dia, após o almoço, Edilson e sua família foram assistir ao Jornal da Paraíba. Em uma das manchetes, já havia sido avisado que iriam noticiar sobre a seca no açude Epitácio Pessoa, que abastece a cidade de Campina Grande. Ao ver que o racionamento havia terminado, com a chegada da água da transposição do rio São Francisco à cidade de Campina Grande, ficou preocupado se o açude iria ou não voltar a encher, por causa do elevado consumo.</description>
+    </item>
+    
+    <item>
+      <title>Terceira Visualizacao</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/terceira-visualizacao/</link>
+      <pubDate>Thu, 16 Nov 2017 00:39:44 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/terceira-visualizacao/</guid>
+      <description>Variação média do volume entre os meses
+     const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://gist.githubusercontent.com/juliobguedes/e9d5820ec7c2a68bb5cc24f6bde796b0/raw/417bb98981812899469848caa3fcffef8161592b/dados.json&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;dados&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } },&#34;mark&#34;:&#34;area&#34;, &#34;encoding&#34;: { &#34;x&#34;:{&#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;month&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação média do volume por mês&#34;}}, &#34;y&#34;:{&#34;field&#34;:&#34;Variacao&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação do Volume&#34;}} }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  </description>
+    </item>
+    
+    <item>
+      <title>Segunda Visualização</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/segunda-vis/</link>
+      <pubDate>Thu, 16 Nov 2017 00:08:14 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/segunda-vis/</guid>
+      <description>Variação média do volume por mês do ano, entre 1990 e 2000
+     const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://gist.githubusercontent.com/juliobguedes/e9d5820ec7c2a68bb5cc24f6bde796b0/raw/417bb98981812899469848caa3fcffef8161592b/dados.json&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;dados&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } },&#34;mark&#34;:&#34;bar&#34;, &#34;encoding&#34;: { &#34;x&#34;:{&#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;yearmonth&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação média do volume por mês do ano&#34;}}, &#34;y&#34;:{&#34;field&#34;:&#34;Variacao&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;axis&#34;:{&#34;title&#34;:&#34;Variação do Volume&#34;}} }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  </description>
+    </item>
+    
+    <item>
+      <title>Primeira Visualização</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/primeira-visualizacao/</link>
+      <pubDate>Wed, 15 Nov 2017 17:07:51 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/primeira-visualizacao/</guid>
+      <description>const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;:&#34;https://api.insa.gov.br/reservatorios/12172/monitoramento&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;volumes&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } }, &#34;mark&#34;:&#34;line&#34;, &#34;encoding&#34;: { &#34;x&#34;:{ &#34;field&#34;:&#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;timeUnit&#34;:&#34;year&#34;, &#34;axis&#34;:{ &#34;title&#34;:&#34;Volume médio ao longo dos anos&#34; } }, &#34;y&#34;:{ &#34;field&#34;:&#34;Volume&#34;, &#34;aggregate&#34;:&#34;average&#34;, &#34;type&#34;: &#34;quantitative&#34;, &#34;axis&#34;:{ &#34;title&#34;:&#34;Volume&#34; } } }, &#34;width&#34;: 480, &#34;height&#34;: 300 } vegaEmbed(&#39;#vis&#39;, spec).catch(console.warn);  A visualização representa a variação do volume de água durante os anos, desde o início dos registros.</description>
+    </item>
+    
+    <item>
+      <title>Primeiro Post</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/post/primeiro-post/</link>
+      <pubDate>Wed, 15 Nov 2017 16:46:56 -0200</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/post/primeiro-post/</guid>
+      <description>const spec = { &#34;$schema&#34;: &#34;https://vega.github.io/schema/vega-lite/v2.json&#34;, &#34;data&#34;: { &#34;url&#34;: &#34;https://api.insa.gov.br/reservatorios/12172/monitoramento&#34;, &#34;format&#34;: { &#34;type&#34;: &#34;json&#34;, &#34;property&#34;: &#34;volumes&#34;, &#34;parse&#34;: { &#34;DataInformacao&#34;: &#34;utc:&#39;%d/%m/%Y&#39;&#34; } } }, &#34;width&#34;: 500, &#34;height&#34;: 120, &#34;mark&#34;: { &#34;type&#34;: &#34;area&#34;, &#34;interpolate&#34;: &#34;monotone&#34; }, &#34;selection&#34;: { &#34;brush&#34;: {&#34;type&#34;: &#34;interval&#34;, &#34;encodings&#34;: [&#34;x&#34;]} }, &#34;encoding&#34;: { &#34;x&#34;: { &#34;timeUnit&#34; : &#34;monthyear&#34;, &#34;field&#34;: &#34;DataInformacao&#34;, &#34;type&#34;: &#34;temporal&#34;, &#34;axis&#34;: {&#34;format&#34;: &#34;%Y&#34;, &#34;title&#34; : &#34;Volume percentual ao longo dos anos&#34;} }, &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

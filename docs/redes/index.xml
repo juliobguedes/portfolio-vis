@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redes on d3.js Portfolio</title>
+    <link>https://juliobguedes.github.io/portfolio-vis/redes/</link>
+    <description>Recent content in Redes on d3.js Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
+    <lastBuildDate>Thu, 15 Mar 2018 20:12:25 -0300</lastBuildDate>
+    
+	<atom:link href="https://juliobguedes.github.io/portfolio-vis/redes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Spotify Top50</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/redes/my-spotify-top50/</link>
+      <pubDate>Thu, 15 Mar 2018 20:12:25 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/redes/my-spotify-top50/</guid>
+      <description>Directive by HTML5 UP  --  
+
+ --  --  --   --       
+O grafo acima foi feito a partir dos dados da minha conta no Spotify, através da API pública do mesmo. Através da visualização, pode-se observar que nos meus artistas mais ouvidos, existe uma grande divisão entre os seus estilos: no primeiro grande conjunto, é possível observar que os artistas são predominantemente (se não totalmente) brasileiros, e os estilos dos mesmos se ligam por gêneros musicais também brasileiros; no segundo grande conjunto predominam artistas do pop americano, sendo ligados por estarem em subdivisões do pop; os menores conjuntos, entretanto, representam a música eletrônica e o indie.</description>
+    </item>
+    
+    <item>
+      <title>Eletrônica</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/redes/eletronica/</link>
+      <pubDate>Thu, 15 Mar 2018 14:03:38 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/redes/eletronica/</guid>
+      <description>O grafo a seguir foi feito a partir dos dados obtidos da API do Spotify através desse site do labs.polsys e guiado pelo roteiro disponível nos arquivos HTML desse repositório, como parte da disciplina de Visualização da Informação, ministrada pelo professor Nazareno Andrade.
+ O grafo acima representa os artistas/bandas no Spotify que estão relacionados à Vegas, nome artístico de Paulo Vilela Veiga, famoso Dj no cenário nacional de música eletrônica, principalmente ao observar as subcategorias de música eletrônica mais presente em seus sets: trance, progressive e psytrance.</description>
+    </item>
+    
+  </channel>
+</rss>

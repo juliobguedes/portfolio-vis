@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on d3.js Portfolio</title>
+    <link>https://juliobguedes.github.io/portfolio-vis/categories/</link>
+    <description>Recent content in Categories on d3.js Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
+    
+	<atom:link href="https://juliobguedes.github.io/portfolio-vis/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
