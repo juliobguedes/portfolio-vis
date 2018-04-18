@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/license/</loc>
+    <lastmod>2018-03-17T12:57:39-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://juliobguedes.github.io/portfolio-vis/redes/my-spotify-top50/</loc>
     <lastmod>2018-03-15T20:12:25-03:00</lastmod>
   </url>
@@ -13,17 +18,17 @@
   </url>
   
   <url>
-    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/lab3parte4/</loc>
+    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/idh/</loc>
     <lastmod>2018-02-27T02:02:39-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/legenda2/</loc>
+    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/renda/</loc>
     <lastmod>2018-02-20T02:29:11-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/legenda/</loc>
+    <loc>https://juliobguedes.github.io/portfolio-vis/mapas/alfabetizados/</loc>
     <lastmod>2018-02-19T21:23:56-03:00</lastmod>
   </url>
   
@@ -92,7 +97,7 @@
   
   <url>
     <loc>https://juliobguedes.github.io/portfolio-vis/</loc>
-    <lastmod>2018-03-15T20:12:25-03:00</lastmod>
+    <lastmod>2018-03-17T12:57:39-03:00</lastmod>
     <priority>0</priority>
   </url>
   

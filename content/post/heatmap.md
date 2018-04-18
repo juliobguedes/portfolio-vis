@@ -12,7 +12,6 @@ draft: false
 <style>
     body {
         font-family: 'Catamaran', sans-serif;
-        margin: 20px;
         top: 20px;
         right: 20px;
         bottom: 20px;
@@ -104,7 +103,7 @@ draft: false
         + (margin.top + chartRadius) + ")");
 
     //LOAD THE DATA
-    d3.csv("https://gist.githubusercontent.com/juliobguedes/45593c23a4237ec2a753ec2692ca5063/raw/969eb0486ff3c1b5636a0819040930730299d86f/data.csv", convertTextToNumbers, function (error, data) {
+    d3.csv("data.csv", convertTextToNumbers, function (error, data) {
         if (error) { throw error; };
 
             //ENSURE THE DATA IS SORTED CORRECTLY, IN THIS CASE BY YEAR AND MONTH

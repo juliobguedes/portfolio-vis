@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
-    <lastBuildDate>Thu, 15 Mar 2018 20:12:25 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Mar 2018 12:57:39 -0300</lastBuildDate>
     
 	<atom:link href="https://juliobguedes.github.io/portfolio-vis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>License</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/license/</link>
+      <pubDate>Sat, 17 Mar 2018 12:57:39 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/license/</guid>
+      <description>This page was made using Hugo and the Cocoa-eh theme. The visualizations were made in the Data Visualization class @ UFCG, tought by Nazareno Andrade using d3.js. Every dataset can be found in the post along with a &amp;ldquo;How To&amp;rdquo; section, teaching how to reproduce the same visualization using the data. All the ideas and visualizations are mine.
+If you want to see of my work, check out my portfolio.</description>
+    </item>
     
     <item>
       <title>My Spotify Top50</title>
@@ -36,10 +46,10 @@ O grafo acima foi feito a partir dos dados da minha conta no Spotify, através d
     
     <item>
       <title>O IDH em uma década</title>
-      <link>https://juliobguedes.github.io/portfolio-vis/mapas/lab3parte4/</link>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/idh/</link>
       <pubDate>Tue, 27 Feb 2018 02:02:39 -0300</pubDate>
       
-      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/lab3parte4/</guid>
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/idh/</guid>
       <description>.cidades { fill: none; stroke: #fff; stroke-linejoin: round; }
 .essevege { margin-left:-300px; }
 
@@ -48,20 +58,20 @@ O grafo acima foi feito a partir dos dados da minha conta no Spotify, através d
     
     <item>
       <title>Salário Mínimo</title>
-      <link>https://juliobguedes.github.io/portfolio-vis/mapas/legenda2/</link>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/renda/</link>
       <pubDate>Tue, 20 Feb 2018 02:29:11 -0300</pubDate>
       
-      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/legenda2/</guid>
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/renda/</guid>
       <description>.jus { text-align: justify; }  
      var svg = d3.select(&#34;svg&#34;), width = +svg.attr(&#34;width&#34;), height = +svg.attr(&#34;height&#34;); var x = d3.scaleLinear() .domain([0, 500]) .rangeRound([0, 360]); var color = d3.scaleThreshold().domain([75, 150, 225, 300, 375, 450]).range(d3.schemeYlOrRd[7]); var g = svg.append(&#34;g&#34;) .attr(&#34;class&#34;, &#34;key&#34;) .attr(&#34;transform&#34;, &#34;translate(0,40)&#34;); g.selectAll(&#34;rect&#34;) .data(color.range().map(function(d) { d = color.invertExtent(d); if (d[0] == null) d[0] = x.domain()[0]; if (d[1] == null) d[1] = x.domain()[1]; return d; })) .</description>
     </item>
     
     <item>
       <title>Alfabetizados</title>
-      <link>https://juliobguedes.github.io/portfolio-vis/mapas/legenda/</link>
+      <link>https://juliobguedes.github.io/portfolio-vis/mapas/alfabetizados/</link>
       <pubDate>Mon, 19 Feb 2018 21:23:56 -0300</pubDate>
       
-      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/legenda/</guid>
+      <guid>https://juliobguedes.github.io/portfolio-vis/mapas/alfabetizados/</guid>
       <description>.jus { text-align: justify; }  
      var svg = d3.select(&#34;svg&#34;), width = +svg.attr(&#34;width&#34;), height = +svg.attr(&#34;height&#34;); var x = d3.scaleLinear() .domain([0, 280]) .rangeRound([0, 360]); var color = d3.scaleThreshold().domain([35,70,105,140,175,210,245]).range(d3.schemeYlGn[8]); var g = svg.append(&#34;g&#34;) .attr(&#34;class&#34;, &#34;key&#34;) .attr(&#34;transform&#34;, &#34;translate(0,40)&#34;); g.selectAll(&#34;rect&#34;) .data(color.range().map(function(d) { d = color.invertExtent(d); if (d[0] == null) d[0] = x.domain()[0]; if (d[1] == null) d[1] = x.domain()[1]; return d; })) .enter().append(&#34;rect&#34;) .attr(&#34;height&#34;, 8) .attr(&#34;x&#34;, function(d) { return x(d[0]); }) .</description>
     </item>
