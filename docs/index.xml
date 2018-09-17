@@ -6,11 +6,49 @@
     <description>Recent content on d3.js Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
-    <lastBuildDate>Sat, 17 Mar 2018 12:57:39 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 17 Sep 2018 01:02:22 -0300</lastBuildDate>
     
 	<atom:link href="https://juliobguedes.github.io/portfolio-vis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Períodos de Gastos - Parte 2.2: Pré-processamento para a Visualização em Python</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/preditiva/partepy/</link>
+      <pubDate>Mon, 17 Sep 2018 01:02:22 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/preditiva/partepy/</guid>
+      <description>Como dito anteriormente, essa parte do tutorial focará na transformação dos dados usando Python. Diferente de JavaScript, Python não lida com objetos da mesma forma que d3. Assim, usaremos bibliotecas para que os dados sejam exportados no formato correto (JSON). A grande vantagem de fazer essa transformação em Python é tornar o trabalho do cliente menor ao carregar a visualização, por já estar com os dados no formato correto. Assim, nosso código em Python terá três etapas principais: importar, tratar e exportar os dados.</description>
+    </item>
+    
+    <item>
+      <title>Períodos de Gastos - Parte 2.1: Pré-processamento para a Visualização em JS</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/preditiva/partejs/</link>
+      <pubDate>Mon, 17 Sep 2018 00:29:09 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/preditiva/partejs/</guid>
+      <description>Como dito anteriormente, essa parte do tutorial seria sobre o processamento necessário para a visualização. Nessa etapa do tutorial, trataremos dessa transformação usando JavaScript. Caso você prefira usar Python, siga para a parte 2.2 do tutorial :).
+O ponto positivo de fazer em JavaScript é que não é necessário saber (ou aprender) mais uma linguagem de programação para fazer o que se precisa para plotar os gráficos. Entretanto, há um grande contraponto: a página demora a carregar, e a experiência do usuário pode ser negativa caso a página demore muito a fazê-lo.</description>
+    </item>
+    
+    <item>
+      <title>Períodos de Gastos - Parte 1: Processamento inicial</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/preditiva/periodos/</link>
+      <pubDate>Tue, 11 Sep 2018 21:53:48 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/preditiva/periodos/</guid>
+      <description>Analisando os dados de gastos da Cota para Exercício da Atividade Parlamentar (CEAP), que pode ser encontrada aqui, pudemos construir um conjunto de dados com os gastos de 2014 a 2017 que pode ser encontrado neste link.
+A partir desse conjunto de dados, podemos fazer uma análise exploratória sobre os mesmos, de modo a extrair informações sobre os dados. Assim, a primeira pergunta que fiz sobre os dados foi: em que período(s) do ano os Parlamentares mais gastam através da CEAP?</description>
+    </item>
+    
+    <item>
+      <title>Introdução</title>
+      <link>https://juliobguedes.github.io/portfolio-vis/preditiva/first/</link>
+      <pubDate>Tue, 11 Sep 2018 21:49:38 -0300</pubDate>
+      
+      <guid>https://juliobguedes.github.io/portfolio-vis/preditiva/first/</guid>
+      <description>Nesse novo conjunto de páginas serão postadas diversas visualizações referentes à dados utilizados na disciplina de Ciência de Dados Preditiva, ministrada pelo Prof. Dr. Leandro Balby, pelo Departamento de Sistemas e Computação (DSC), da Universidade Federal de Campina Grande.
+Tais visualizações não tem qualquer correlação com as visualizações feitas para a disciplina, ou foram pedidas pelo professor como atividade ou coisa do tipo, e estou fazendo-as para exercitar a criatividade no âmbito de visualização da informação e praticar d3.</description>
+    </item>
     
     <item>
       <title>License</title>
@@ -82,7 +120,7 @@ O grafo acima foi feito a partir dos dados da minha conta no Spotify, através d
       <pubDate>Mon, 11 Dec 2017 00:21:11 -0200</pubDate>
       
       <guid>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</guid>
-      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; margin: 20px; top: 20px; right: 20px; bottom: 20px; left: 20px; }
+      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; top: 20px; right: 20px; bottom: 20px; left: 20px; }
 line { stroke: lightgray; } .year-label { fill: white; } .tooltip { position: absolute; text-align: center; width: 60px; height: 20px; padding-top: 3px; margin-top: -20px; font: 10px sans-serif; background: #ddd; pointer-events: none; border-radius: 5px; }    Um mapa de calor em espiral demonstrando a quantidade de pedestres + ciclistas no Açude Velho, das 6:00 as 21:00</description>
     </item>
     

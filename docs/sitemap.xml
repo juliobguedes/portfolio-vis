@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/preditiva/partepy/</loc>
+    <lastmod>2018-09-17T01:02:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/preditiva/partejs/</loc>
+    <lastmod>2018-09-17T00:29:09-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/preditiva/periodos/</loc>
+    <lastmod>2018-09-11T21:53:48-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/preditiva/first/</loc>
+    <lastmod>2018-09-11T21:49:38-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://juliobguedes.github.io/portfolio-vis/license/</loc>
     <lastmod>2018-03-17T12:57:39-03:00</lastmod>
   </url>
@@ -85,6 +105,12 @@
   </url>
   
   <url>
+    <loc>https://juliobguedes.github.io/portfolio-vis/preditiva/</loc>
+    <lastmod>2018-09-17T01:02:22-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://juliobguedes.github.io/portfolio-vis/redes/</loc>
     <lastmod>2018-03-15T20:12:25-03:00</lastmod>
     <priority>0</priority>
@@ -97,7 +123,7 @@
   
   <url>
     <loc>https://juliobguedes.github.io/portfolio-vis/</loc>
-    <lastmod>2018-03-17T12:57:39-03:00</lastmod>
+    <lastmod>2018-09-17T01:02:22-03:00</lastmod>
     <priority>0</priority>
   </url>
   

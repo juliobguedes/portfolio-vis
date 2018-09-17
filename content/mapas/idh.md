@@ -31,49 +31,6 @@ O hover funciona pra saber qual é o município que mais cresceu!
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script>
 <script src="legenda-d3-cor.js"></script>
-<!-- <script>
-
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
-
-var path = d3.geoPath();
-
-// a escala de cores
-var color = d3.scaleThreshold().domain([0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35]).range(d3.schemeReds[8]);
-
-// função aux definida em legenda-d3-cor.js
-desenhaLegenda(0, 0.4, color, "Diferença do IDH entre 2000 e 2010");
-
-d3.queue()
-    .defer(d3.json, "geo4-municipios-e-aprendizado-simplificado.json")
-    .await(ready);
-
-function ready(error, dados) {
-  if (error) throw error;
-
-  var cidades = dados.features;
-
-  svg.append("g")
-      .attr("class", "cidades")
-    .selectAll("path")
-    .data(cidades)
-    .enter()
-    .append("path")
-      .attr("fill", d => {let valor = d.properties["Crescimento"]; return valor === "NA" ? '#e0e0eb' : color(valor)})
-      .attr("d", path)
-    .append("title")
-      .text(d => d.properties.Cidade + ": " + d.properties["Crescimento"]);
-}
-
-</script> -->
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
 <script>
 
 var svg = d3.select("svg"),

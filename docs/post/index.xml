@@ -6,7 +6,6 @@
     <description>Recent content in Post on d3.js Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Copyright © 2017-2018 Júlio Barreto</copyright>
     <lastBuildDate>Mon, 11 Dec 2017 00:21:11 -0200</lastBuildDate>
     
 	<atom:link href="https://juliobguedes.github.io/portfolio-vis/post/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +17,7 @@
       <pubDate>Mon, 11 Dec 2017 00:21:11 -0200</pubDate>
       
       <guid>https://juliobguedes.github.io/portfolio-vis/post/heatmap/</guid>
-      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; margin: 20px; top: 20px; right: 20px; bottom: 20px; left: 20px; }
+      <description>body { font-family: &amp;lsquo;Catamaran&amp;rsquo;, sans-serif; top: 20px; right: 20px; bottom: 20px; left: 20px; }
 line { stroke: lightgray; } .year-label { fill: white; } .tooltip { position: absolute; text-align: center; width: 60px; height: 20px; padding-top: 3px; margin-top: -20px; font: 10px sans-serif; background: #ddd; pointer-events: none; border-radius: 5px; }    Um mapa de calor em espiral demonstrando a quantidade de pedestres + ciclistas no Açude Velho, das 6:00 as 21:00</description>
     </item>
     
